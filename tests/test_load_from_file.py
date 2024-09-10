@@ -8,7 +8,7 @@ from main import load_from_file
 @pytest.fixture
 def sample_file_path():
     '''This fucntion returns a sample page number to test the download data function'''
-    return '../test.json'
+    return 'test.json'
 
 def test_load_from_file(sample_file_path):
     data = load_from_file(sample_file_path)
